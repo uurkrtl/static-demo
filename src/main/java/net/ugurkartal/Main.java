@@ -22,5 +22,13 @@ public class Main {
         StaticDemo.incrementTotalCount();
 
         System.out.println(demo4);
+
+        System.out.println();
+
+        //For Bonus Task:
+        System.out.println("3 + 5 = " + Calculator.add(3,5));
+        System.out.println("8 - 2 = " + Calculator.subtract(8,2));
+        System.out.println("6 / 2 = " + Calculator.divide(6,2));
+        System.out.println("2 * 5 = " + Calculator.multiply(2,5));
     }
 }
