@@ -11,16 +11,18 @@ public class Main {
 
         demo1.incrementInstanceCount();
         StaticDemo.incrementTotalCount();
+        System.out.println(demo1);
 
         demo2.incrementInstanceCount();
         StaticDemo.incrementTotalCount();
+        System.out.println(demo2);
 
         demo3.incrementInstanceCount();
         StaticDemo.incrementTotalCount();
+        System.out.println(demo3);
 
         demo4.incrementInstanceCount();
         StaticDemo.incrementTotalCount();
-
         System.out.println(demo4);
 
         System.out.println();
